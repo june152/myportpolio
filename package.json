@@ -2,12 +2,12 @@
   "name": "portpolio",
   "version": "0.1.0",
   "description": "Personal portfolio template built using Reactjs, HJP's portfolio using React-typescript",
-	"author": {
-		"name": "Tharindu N. Madhusanka",
-		"email": "mail@tharindu.dev",
-		"url": "https://tharindu.dev"
-	},
-	"license": "MIT",
+  "author": {
+    "name": "Tharindu N. Madhusanka",
+    "email": "mail@tharindu.dev",
+    "url": "https://tharindu.dev"
+  },
+  "license": "MIT",
   "private": true,
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^6.4.0",
@@ -29,6 +29,7 @@
     "react-helmet": "^6.1.0",
     "react-router-dom": "^6.14.0",
     "react-scripts": "5.0.1",
+    "styled-components": "^6.0.1",
     "typescript": "^4.9.5",
     "web-vitals": "^2.1.4"
   },

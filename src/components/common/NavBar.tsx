@@ -5,7 +5,7 @@ import {
 import "./styles/navBar.css";
 
 export type NavigateProps = {
-    active: "home" | "about" | "projects" | "certificates" | "contact",
+    active?: "home" | "about" | "projects" | "certificates" | "contact",
 }
 
 const NavBar = (props: NavigateProps) => {
