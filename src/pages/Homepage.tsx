@@ -1,7 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import "./styles/homepage.css";
 import INFO from "../data/user";
-import { Helmet } from "react-helmet";
 import NavBar from '../components/common/NavBar';
 import Logo from '../components/common/Logo';
 import { faMailBulk } from "@fortawesome/free-solid-svg-icons";
@@ -103,26 +102,26 @@ const Homepage = () => {
                         </div>
 
                         <div className="homepage-socials">
-                                <a
-                                    href={INFO.socials.github}
-                                    target="_blank"
-                                    rel="noreferrer"
-                                >
-                                    <FontAwesomeIcon
-                                        icon={faGithub}
-                                        className="homepage-social-icon"
-                                    />
-                                </a>
-                                <a
-                                    href={`mailto:${INFO.main.email}`}
-                                    target="_blank"
-                                    rel="noreferrer"
-                                >
-                                    <FontAwesomeIcon
-                                        icon={faMailBulk}
-                                        className="homepage-social-icon"
-                                    />
-                                </a>
+                            <a
+                                href={INFO.socials.github}
+                                target="_blank"
+                                rel="noreferrer"
+                            >
+                                <FontAwesomeIcon
+                                    icon={faGithub}
+                                    className="homepage-social-icon"
+                                />
+                            </a>
+                            <a
+                                href={`mailto:${INFO.main.email}`}
+                                target="_blank"
+                                rel="noreferrer"
+                            >
+                                <FontAwesomeIcon
+                                    icon={faMailBulk}
+                                    className="homepage-social-icon"
+                                />
+                            </a>
                         </div>
                         
                         <div className="homepage-projects">

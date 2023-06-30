@@ -1,8 +1,8 @@
-import React, { useEffect } from 'react';
+import { useEffect } from 'react';
 import './App.css';
 import { TRACKING_ID } from "./data/tracking";
 import ReactGA from "react-ga4";
-import { Routes, Route, useRoutes, Navigate } from "react-router-dom";
+import { useRoutes, Navigate } from "react-router-dom";
 import Homepage from './pages/Homepage';
 import About from './pages/About';
 import Projects from './pages/Projects';
