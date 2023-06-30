@@ -10,6 +10,8 @@ import {
 	faGithub,
 } from "@fortawesome/free-brands-svg-icons";
 import Footer from '../components/common/Footer';
+import AllProjects from '../components/projects/AllProjects';
+import Works from '../components/homepage/Works';
 
 export interface LogoStyle {
     display: string,
@@ -66,9 +68,6 @@ const Homepage = () => {
 
     return (
         <React.Fragment>
-            <Helmet>
-                <title>{INFO.main.title}</title>
-            </Helmet>
            <div className="page-content">
                 <NavBar active="home" />
                 <div className='content-wrapper'>
@@ -127,7 +126,11 @@ const Homepage = () => {
                         </div>
                         
                         <div className="homepage-projects">
-							
+							<AllProjects />
+                        </div>
+
+                        <div className="homepage-works">
+                            <Works />
                         </div>
                     </div>
                     <div className="page-footer">

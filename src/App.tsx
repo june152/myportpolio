@@ -6,6 +6,8 @@ import { Routes, Route, useRoutes, Navigate } from "react-router-dom";
 import Homepage from './pages/Homepage';
 import About from './pages/About';
 import Projects from './pages/Projects';
+import Certificates from './pages/Certificates';
+import Contact from './pages/Contact';
 
 function App() {
   useEffect(() => {
@@ -47,6 +49,26 @@ function App() {
           element: <Navigate to="/projects/1" replace />,
         },
         { path: ":page", element: <Projects /> },
+      ]
+    },
+    {
+      path: "/certificates/*",
+      children: [
+        {
+          path: "*",
+          element: <Navigate to="/certificates/1" replace />,
+        },
+        { path: ":page", element: <Certificates /> },
+      ]
+    },
+    {
+      path: "/contact/*",
+      children: [
+        {
+          path: "*",
+          element: <Navigate to="/contact/1" replace />,
+        },
+        { path: ":page", element: <Contact /> },
       ]
     },
   ])

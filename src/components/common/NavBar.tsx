@@ -44,6 +44,24 @@ const NavBar = (props: NavigateProps) => {
                         >
                             <a href='#' onClick={() => navigate("/projects")}>Projects</a>
                         </li>
+                        <li
+                            className={
+                                active === "certificates"
+                                    ? "nav-item active"
+                                    : "nav-item"
+                            }
+                        >
+                            <a href='#' onClick={() => navigate("/certificates")}>Certificates</a>
+                        </li>
+                        <li
+                            className={
+                                active === "contact"
+                                    ? "nav-item active"
+                                    : "nav-item"
+                            }
+                        >
+                            <a href='#' onClick={() => navigate("/contact")}>Contact</a>
+                        </li>
                     </ul>
                 </div>
             </div> 

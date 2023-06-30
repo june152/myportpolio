@@ -21,6 +21,12 @@ const Footer = () => {
                         </li>
                         <li className="footer-nav-link-item">
 							<a href='#' onClick={() => navigate("/projects")}>Projects</a>
+                        </li>
+                        <li className="footer-nav-link-item">
+							<a href='#' onClick={() => navigate("/certificates")}>Certificates</a>
+                        </li>
+                        <li className="footer-nav-link-item">
+							<a href='#' onClick={() => navigate("/contact")}>Contact</a>
 						</li>
 					</ul>
 				</div>

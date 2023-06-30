@@ -4,6 +4,7 @@ import Footer from '../components/common/Footer';
 import Logo from '../components/common/Logo';
 
 import "./styles/projects.css";
+import AllProjects from '../components/projects/AllProjects';
 
 const Projects = () => {
     useEffect(() => {
@@ -31,7 +32,7 @@ const Projects = () => {
                         </div>
 
                         <div className="projects-list">
-
+                            <AllProjects />
                         </div>
                     </div>
 

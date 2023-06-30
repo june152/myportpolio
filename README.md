@@ -1,5 +1,15 @@
 **홍준표의 포트폴리오**
+
 해당 포트폴리오는 https://github.com/truethari/reactfolio 의 Reactfolio V1.2 템플릿을 참고하여 만들었습니다.
+
+## 📙 Features
+
+- 📖 Multi-Page Layout
+  - Home
+  - About
+  - Projects
+  - Certificates
+  - Contact
 
 # Reactfolio V1.2 👩🏽‍🚀
 

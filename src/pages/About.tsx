@@ -37,15 +37,21 @@ const About = () => {
                                     <strong>어학 : </strong>{INFO.about.description.language}<br />
                                     <strong>자격 : </strong>{INFO.about.description.cert}<br />
                                     <br />
-                                    <strong>경력 사항</strong><br />
                                     <br />
-                                    {INFO.about.description.career.map((item) => (
-                                        <>
+                                    <strong>경력 사항</strong><br />
+                                    {INFO.about.description.career.map((item, idx) => (
+                                        <p key={idx}>
                                             <strong>기업명 : </strong>{item.companyNo}<br />
                                             <strong>재직기간 : </strong>{item.period}<br />
                                             <strong>담당업무 : </strong>{item.position}<br />
                                             <br />
-                                        </>
+                                        </p>
+                                    ))}
+                                    <strong>기술 스택</strong><br />
+                                    {INFO.about.description.stack.map((item, idx) => (
+                                        <p key={idx}>
+                                            <strong>{item.skillNm} : </strong>{item.level}<br />
+                                        </p>
                                     ))}
 								</div>
                             </div>
