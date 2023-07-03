@@ -4,6 +4,8 @@ import Footer from '../components/common/Footer';
 import Logo from '../components/common/Logo';
 import INFO from '../data/user';
 import "./styles/certificates.css"
+import { MyCerts } from "../data/Certificates";
+import CertificateItem from "../components/certificates/certificate";
 
 const Certificates = () => {
     useEffect(() => {
@@ -32,7 +34,20 @@ const Certificates = () => {
                         
                         <div className="certificates-container">
                             <div className="certificates-wrapper">
-
+                                {MyCerts.map((myCert, idx) => (
+                                    <div
+										className="certificates-article"
+										key={idx}
+									>
+										<CertificateItem
+											key={idx}
+											date={myCert.date}
+											title={myCert.title}
+											description={myCert.description}
+											link={"/viewcert/" + (idx+ 1)}
+										/>
+									</div>
+                                ))}
                             </div>
                         </div>
                     </div>

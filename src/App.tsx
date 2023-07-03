@@ -8,6 +8,7 @@ import About from './pages/About';
 import Projects from './pages/Projects';
 import Certificates from './pages/Certificates';
 import Contact from './pages/Contact';
+import ViewCert from './pages/ViewCert';
 
 function App() {
   useEffect(() => {
@@ -69,6 +70,16 @@ function App() {
           element: <Navigate to="/contact/1" replace />,
         },
         { path: ":page", element: <Contact /> },
+      ]
+    },
+    {
+      path: "/viewcert/*",
+      children: [
+        {
+          path: "*",
+          element: <Navigate to="/viewcert/1" replace />,
+        },
+        { path: ":page", element: <ViewCert /> },
       ]
     },
   ])
