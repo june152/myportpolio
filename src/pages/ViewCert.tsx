@@ -4,6 +4,7 @@ import styled from "styled-components";
 import NavBar from "../components/common/NavBar";
 import Footer from "../components/common/Footer";
 import Logo from "../components/common/Logo";
+import BackIcon from "../assets/back_btn.png"
 
 import "./styles/viewCert.css";
 import { MyCerts } from "../data/Certificates";
@@ -38,7 +39,7 @@ const ViewCert = () => {
                     <div className="view-cert-container">
                         <div className="view-cert-back">
                             <img
-								src="../back-button.png"
+								src={BackIcon}
 								alt="back"
 								className="view-cert-back-button"
 								onClick={() => navigate(-1)}

@@ -2,6 +2,8 @@ import React from 'react';
 import { faBriefcase } from "@fortawesome/free-solid-svg-icons";
 import "./styles/works.css";
 import Card from '../common/Card';
+import Inforex from "../../assets/inforex.png"
+import Nubiz from "../../assets/nubiz.png"
 
 const Works = () => {
     return (
@@ -13,7 +15,7 @@ const Works = () => {
 					<div className="works-body">
 						<div className="work">
 							<img
-								src="./facebook.png"
+								src={Inforex}
 								alt="facebook"
 								className="work-image"
 							/>
@@ -26,7 +28,7 @@ const Works = () => {
 
 						<div className="work">
 							<img
-								src="./twitter.png"
+								src={Nubiz}
 								alt="twitter"
 								className="work-image"
 							/>
