@@ -32,7 +32,7 @@ const CertCards = () => {
 								alt="ssafy"
 								className="work-image"
 							/>
-							<div className="work-title">Oral Proficiency Interview - computer (OPic)</div>
+							<div className="work-title">Oral Proficiency Interview - computer (OPic) IM1</div>
 							<div className="work-subtitle">
 								
 							</div>
