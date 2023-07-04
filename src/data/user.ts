@@ -1,3 +1,7 @@
+import Duck from "../assets/증빙1.png"
+import GjDaum from "../assets/gjdaum.png"
+import Dobanjang from "../assets/dobanjang.png"
+
 export type Career = {
     companyNo: string,
     period: string,
@@ -50,7 +54,7 @@ const INFO = {
 		title: "HJP's Portpolio",
 		name: "Hong Jun Pyo",
 		email: "sciencepyo@nubiz.kr",
-		logo: "../logo.png",
+		logo: Duck,
 	},
 
 	socials: {
@@ -85,8 +89,8 @@ const INFO = {
 		{
 			title: "광주다움 통합돌봄",
 			description:
-				"프로젝트 내용 작성",
-			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/javascript/javascript.png",
+				"돌봄이 필요한 광주시민이면 누구나 이용할 수 있는 빈틈없는 전 생애주기 지역사회 통합돌봄 서비스",
+			logo: GjDaum,
 			linkText: "View Project",
 			link: "https://github.com/june152",
 		},
@@ -94,8 +98,8 @@ const INFO = {
 		{
 			title: "우리동네 두반장",
 			description:
-				"프로젝트 내용 작성",
-			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/python/python.png",
+				"광주광역시 동구 주민이면 누구나 이용할 수 있는 생활밀착 문제해결 디지털 플랫폼",
+			logo: Dobanjang,
 			linkText: "View Project",
 			link: "https://github.com/june152",
 		},

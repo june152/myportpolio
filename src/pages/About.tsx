@@ -6,6 +6,11 @@ import INFO from '../data/user';
 import Socials from '../components/about/Socials';
 
 import "./styles/about.css";
+import Education from '../components/homepage/Education';
+import CertCards from '../components/homepage/CertCards';
+import Works from '../components/homepage/Works';
+import Skills from '../components/homepage/Skills';
+import Escape from "../assets/증빙7.jpeg"
 
 const About = () => {
     useEffect(() => {
@@ -30,7 +35,7 @@ const About = () => {
 									{INFO.about.title}
 								</div>
 
-								<div className="subtitle about-subtitle">
+								{/* <div className="subtitle about-subtitle">
                                     <strong>학력 : </strong>{INFO.about.description.education}<br />
                                     <strong>교육 : </strong>{INFO.about.description.etc}<br />
                                     <br />
@@ -53,19 +58,31 @@ const About = () => {
                                             <strong>{item.skillNm} : </strong>{item.level}<br />
                                         </p>
                                     ))}
-								</div>
+                                </div> */}
+                                <div className="about-works">
+                                    <Education />
+                                </div>
+                                <div className="about-works">
+                                    <CertCards />
+                                </div>
+                                <div className="about-works">
+                                    <Works />
+                                </div>
+                                <div className="about-works">
+                                    <Skills />
+                                </div>
                             </div>
 
                             <div className="about-left-side">
                                 <div className="about-image-container">
 									<div className="about-image-wrapper">
 										<img
-											src="about.jpg"
+											src={Escape}
 											alt="about"
 											className="about-image"
 										/>
 									</div>
-								</div>
+                                </div>
 
 								<div className="about-socials">
 									<Socials />

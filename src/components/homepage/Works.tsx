@@ -16,7 +16,7 @@ const Works = () => {
 						<div className="work">
 							<img
 								src={Inforex}
-								alt="facebook"
+								alt="inforex"
 								className="work-image"
 							/>
 							<div className="work-title">(주)인포렉스</div>
@@ -29,7 +29,7 @@ const Works = () => {
 						<div className="work">
 							<img
 								src={Nubiz}
-								alt="twitter"
+								alt="nubiz"
 								className="work-image"
 							/>
 							<div className="work-title">(주)엔유비즈</div>
