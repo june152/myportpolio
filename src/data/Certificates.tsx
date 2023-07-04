@@ -13,7 +13,7 @@ export class CertType {
 
 export const Cert_1:ReactNode = 
         <div className="certificate-content">
-            <div className="paragraph">전남대학교 소프트웨어 학과 졸업증명서</div>
+            <div className="paragraph"></div>
             <img
                 src="https://picsum.photos/200/300"
                 alt="random"
@@ -23,7 +23,7 @@ export const Cert_1:ReactNode =
 
 export const Cert_2:ReactNode = 
         <div className="certificate-content">
-            <div className="paragraph">정보처리기사 자격증</div>
+            <div className="paragraph"></div>
             <img
                 src="https://picsum.photos/200/300"
                 alt="random"
@@ -33,7 +33,7 @@ export const Cert_2:ReactNode =
         
 export const Cert_3:ReactNode = 
         <div className="certificate-content">
-            <div className="paragraph">OPic 자격증</div>
+            <div className="paragraph"></div>
             <img
                 src="https://picsum.photos/200/300"
                 alt="random"
@@ -43,7 +43,7 @@ export const Cert_3:ReactNode =
         
 export const Cert_4:ReactNode = 
         <div className="certificate-content">
-            <div className="paragraph">(주)인포렉스 경력증명서</div>
+            <div className="paragraph"></div>
             <img
                 src="https://picsum.photos/200/300"
                 alt="random"
@@ -53,7 +53,7 @@ export const Cert_4:ReactNode =
         
 export const Cert_5:ReactNode = 
         <div className="certificate-content">
-            <div className="paragraph">(주)엔유비즈 재직증명서</div>
+            <div className="paragraph"></div>
             <img
                 src="https://picsum.photos/200/300"
                 alt="random"
@@ -62,7 +62,7 @@ export const Cert_5:ReactNode =
         </div>
 
 const myCert_1:CertType = {
-    date: "2023.07.03",
+    date: "01.)",
     title: "전남대학교 소프트웨어학과 졸업증명서",
     description: "",
     style: `
@@ -81,7 +81,7 @@ const myCert_1:CertType = {
 }
 
 const myCert_2:CertType = {
-    date: "2023.07.04",
+    date: "02.)",
     title: "정보처리기사 자격증",
     description: "",
      style: `
@@ -100,7 +100,7 @@ const myCert_2:CertType = {
 }
 
 const myCert_3:CertType = {
-    date: "2023.07.04",
+    date: "03.)",
     title: "OPic 자격증",
     description: "",
      style: `
@@ -119,7 +119,7 @@ const myCert_3:CertType = {
 }
 
 const myCert_4:CertType = {
-    date: "2023.07.04",
+    date: "04.)",
     title: "(주)인포렉스 경력증명서",
     description: "",
      style: `
@@ -138,7 +138,7 @@ const myCert_4:CertType = {
 }
 
 const myCert_5:CertType = {
-    date: "2023.07.04",
+    date: "05.)",
     title: "(주)엔유비즈 재직증명서",
     description: "",
      style: `
