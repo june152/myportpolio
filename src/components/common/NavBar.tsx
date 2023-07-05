@@ -4,13 +4,16 @@ import {
 } from "react-router-dom";
 import "./styles/navBar.css";
 
+export type NavActive = "home" | "about" | "projects" | "certificates" | "contact" | "certificate"
+
 export type NavigateProps = {
-    active?: "home" | "about" | "projects" | "certificates" | "contact",
+    active?: NavActive,
+    handleModalToggle: Function,
 }
 
 const NavBar = (props: NavigateProps) => {
     const navigate = useNavigate();
-    const { active } = props;
+    const { active, handleModalToggle } = props;
 
     return (
         <React.Fragment>
@@ -61,7 +64,7 @@ const NavBar = (props: NavigateProps) => {
                                         : "nav-item"
                                 }
                             >
-                                <a href='#' onClick={() => navigate("/contact")}>Contact</a>
+                                <a style={{ cursor: "pointer" }} onClick={() => handleModalToggle(true)}>Contact</a>
                             </li>
                         </ul>
                     </div>

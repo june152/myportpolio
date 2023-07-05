@@ -15,7 +15,6 @@ const Certificates = () => {
     return (
         <React.Fragment>
             <div className="page-content">
-                <NavBar active="certificates" />
                 <div className="content-wrapper">
                     <div className="certificates-logo-container">
                         <div className="certificates-logo">
@@ -51,9 +50,6 @@ const Certificates = () => {
                             </div>
                         </div>
                     </div>
-                    <div className="page-footer">
-						<Footer />
-					</div>
                 </div>
             </div>
         </React.Fragment>

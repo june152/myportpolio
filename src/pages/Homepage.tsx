@@ -69,7 +69,6 @@ const Homepage = () => {
     return (
         <React.Fragment>
            <div className="page-content">
-                <NavBar active="home" />
                 <div className='content-wrapper'>
                     <div className="homepage-logo-container">
                         <div style={logoStyle}>
@@ -132,9 +131,6 @@ const Homepage = () => {
                         <div className="homepage-works">
                             <Works />
                         </div>
-                    </div>
-                    <div className="page-footer">
-                        <Footer />
                     </div>
                 </div>
             </div> 

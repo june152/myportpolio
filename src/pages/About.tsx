@@ -20,7 +20,6 @@ const About = () => {
     return (
         <React.Fragment>
             <div className="page-content">
-                <NavBar active="about" />
                 <div className='content-wrapper'>
                     <div className="about-logo-container">
 						<div className="about-logo">
@@ -93,10 +92,6 @@ const About = () => {
 							<Socials />
 						</div>
                     </div>
-
-                   <div className="page-footer">
-                        <Footer />
-                    </div> 
                 </div>
 
             </div> 

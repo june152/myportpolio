@@ -1,21 +1,45 @@
-import { useEffect } from 'react';
+import { useEffect, useState } from 'react';
 import './App.css';
 import { TRACKING_ID } from "./data/tracking";
 import ReactGA from "react-ga4";
-import { useRoutes, Navigate } from "react-router-dom";
+import { useRoutes, Navigate, useLocation } from "react-router-dom";
 import Homepage from './pages/Homepage';
 import About from './pages/About';
 import Projects from './pages/Projects';
 import Certificates from './pages/Certificates';
 import Contact from './pages/Contact';
 import ViewCert from './pages/ViewCert';
+import NavBar, { NavActive } from './components/common/NavBar';
+import Footer from './components/common/Footer';
+import ContactDialog from './components/common/ContactDialog';
 
 function App() {
+  const [activePage, setActivePage] = useState<NavActive>("home")
+  const location = useLocation()
+  const [modalVisible, setModalVisible] = useState(false)
+  const handleModalToggle = (isVisible : boolean) => {
+    setModalVisible(isVisible)
+  }
+
   useEffect(() => {
     if (TRACKING_ID !== "") {
 			ReactGA.initialize(TRACKING_ID);
 		}
   }, [])
+
+  useEffect(() => {
+    if (location.pathname.includes("home")) {
+      setActivePage("home")
+    } else if (location.pathname.includes("about")) {
+      setActivePage("about")
+    } else if (location.pathname.includes("projects")) {
+      setActivePage("projects")
+    } else if (location.pathname.includes("certificates")) {
+      setActivePage("certificates")
+    } else if (location.pathname.includes("viewcert")) {
+      setActivePage("certificates")
+    }
+  }, [location])
 
   const routes = useRoutes([
     {
@@ -86,7 +110,16 @@ function App() {
 
   return (
     <div className="App">
+      <NavBar active={activePage} handleModalToggle={handleModalToggle} />
       {routes}
+      <div className="page-footer">
+          <Footer handleModalToggle={handleModalToggle} />
+      </div>
+      {
+        modalVisible && (
+          <ContactDialog handleModalToggle={handleModalToggle} />
+        )
+      }      
     </div>
   );
 }

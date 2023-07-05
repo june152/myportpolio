@@ -5,7 +5,7 @@ import {
 
 import "./styles/footer.css";
 
-const Footer = () => {
+const Footer = ({handleModalToggle}: {handleModalToggle : Function}) => {
     const navigate = useNavigate();
 
     return (
@@ -26,16 +26,16 @@ const Footer = () => {
 							<a href='#' onClick={() => navigate("/certificates")}>Certificates</a>
                         </li>
                         <li className="footer-nav-link-item">
-							<a href='#' onClick={() => navigate("/contact")}>Contact</a>
+							<a style={{ cursor: "pointer" }} onClick={() => handleModalToggle(true)}>Contact</a>
 						</li>
 					</ul>
 				</div>
 
-				<div className="footer-credits">
+				{/* <div className="footer-credits">
 					<div className="footer-credits-text">
 						© 2023 Tharindu.dev. All Rights Reserved.
 					</div>
-				</div>
+				</div> */}
 			</div>
 		</React.Fragment>
     );

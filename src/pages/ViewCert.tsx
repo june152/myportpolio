@@ -28,7 +28,6 @@ const ViewCert = () => {
     return (
         <React.Fragment>
             <div className="page-content">
-                <NavBar />
                 <div className="content-wrapper">
                     <div className="view-cert-logo-container">
                         <div className="view-cert-logo">
@@ -62,9 +61,6 @@ const ViewCert = () => {
                             </div>
                         </div>
                     </div>
-                    <div className="page-footer">
-						<Footer />
-					</div>
                 </div>
             </div>
         </React.Fragment>

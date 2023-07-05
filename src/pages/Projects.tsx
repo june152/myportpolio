@@ -14,7 +14,6 @@ const Projects = () => {
     return (
         <React.Fragment>
             <div className="page-content">
-                <NavBar active="projects" />
                 <div className='content-wrapper'>
                     <div className="projects-logo-container">
 						<div className="projects-logo">
@@ -34,10 +33,6 @@ const Projects = () => {
                         <div className="projects-list">
                             <AllProjects />
                         </div>
-                    </div>
-
-                    <div className="page-footer">
-                        <Footer />
                     </div>
                 </div>
             </div> 
