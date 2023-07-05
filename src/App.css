@@ -36,11 +36,13 @@
 .page-content:before {
   left: 0;
   z-index: 1;
+  background-color: #2447b84f;
 }
 
 .page-content:after {
   right: 0;
   z-index: 1;
+  background-color: #2447b84f;
 }
 
 .content-wrapper {
@@ -67,6 +69,7 @@
 
 .page-footer {
   position: block;
+  background-color: #2447b84f;
 }
 
 .page-footer::before {
