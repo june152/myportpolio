@@ -29,6 +29,9 @@ const Projects = () => {
                         <div className="subtitle projects-subtitle">
                             제가 참여한 완료된, 혹은 진행 중인 프로젝트 목록입니다.
                         </div>
+                        <div className="subtitle projects-subtitle">
+                            아래 프로젝트들은 회사에서 진행한 프로젝트 및 개인 및 팀원과 함께 진행한 프로젝트입니다.
+                        </div>
 
                         <div className="projects-list">
                             <AllProjects />

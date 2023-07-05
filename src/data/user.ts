@@ -1,6 +1,7 @@
 import Duck from "../assets/증빙1.png"
 import GjDaum from "../assets/gjdaum.png"
 import Dobanjang from "../assets/dobanjang.png"
+import ReactIcon from "../assets/react.png"
 
 export type Career = {
     companyNo: string,
@@ -109,6 +110,22 @@ const INFO = {
 			description:
 				"프로젝트 내용 작성",
 			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/html/html.png",
+			linkText: "View Project",
+			link: "https://github.com/june152",
+		},
+		{
+			title: "이 집 청소 잘하네 유니나 청소",
+			description:
+				"건강한 공간을 선물하는 업체, 유니나 청소 페이지 제작",
+			logo: ReactIcon,
+			linkText: "View Project",
+			link: "https://june152.github.io/unina_clean_react/home/1#",
+		},
+		{
+			title: "크롤러를 이용한 프렌차이즈 정보 수집",
+			description:
+				"대학 졸업 프로젝트, 크롤링 프로그램 제작(python)",
+			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/python/python.png",
 			linkText: "View Project",
 			link: "https://github.com/june152",
 		},
