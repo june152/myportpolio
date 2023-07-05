@@ -2,6 +2,7 @@ import Duck from "../assets/증빙1.png"
 import GjDaum from "../assets/gjdaum.png"
 import Dobanjang from "../assets/dobanjang.png"
 import ReactIcon from "../assets/react.png"
+import SSAFY from "../assets/SSAFY.jpg"
 
 export type Career = {
     companyNo: string,
@@ -114,12 +115,12 @@ const INFO = {
 			link: "https://github.com/june152",
 		},
 		{
-			title: "이 집 청소 잘하네 유니나 청소",
+			title: "HappyHouse - 우리동네 부동산 가격은 어떨까?",
 			description:
-				"건강한 공간을 선물하는 업체, 유니나 청소 페이지 제작",
-			logo: ReactIcon,
+				"부동산 시세 확인 웹 어플리케이션(삼성 청년 소프트웨어 아카데미 1학기 프로젝트)",
+			logo: SSAFY,
 			linkText: "View Project",
-			link: "https://june152.github.io/unina_clean_react/home/1#",
+			link: "https://github.com/june152",
 		},
 		{
 			title: "크롤러를 이용한 프렌차이즈 정보 수집",
@@ -128,6 +129,14 @@ const INFO = {
 			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/python/python.png",
 			linkText: "View Project",
 			link: "https://github.com/june152",
+		},
+		{
+			title: "이 집 청소 잘하네 유니나 청소",
+			description:
+				"건강한 공간을 선물하는 업체, 유니나 청소 페이지 제작",
+			logo: ReactIcon,
+			linkText: "View Project",
+			link: "https://june152.github.io/unina_clean_react/home/1#",
 		},
 	],
 };

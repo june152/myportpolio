@@ -1,4 +1,6 @@
 import { ReactNode } from "react"
+import JnuCert from "../assets/jnuCert.jpg"
+import InforexCert from "../assets/inforexCert.jpg"
 
 export class CertType {
     constructor(
@@ -15,7 +17,7 @@ export const Cert_1:ReactNode =
         <div className="certificate-content">
             <div className="paragraph"></div>
             <img
-                src="https://picsum.photos/200/300"
+                src={JnuCert}
                 alt="random"
                 className="randImage"
             />
@@ -45,7 +47,7 @@ export const Cert_4:ReactNode =
         <div className="certificate-content">
             <div className="paragraph"></div>
             <img
-                src="https://picsum.photos/200/300"
+                src={InforexCert}
                 alt="random"
                 className="randImage"
             />
@@ -120,7 +122,7 @@ const myCert_3:CertType = {
 
 const myCert_4:CertType = {
     date: "04.)",
-    title: "(주)인포렉스 경력증명서",
+    title: "(주)인포렉스 경력증명서(건강보험 납부확인서)",
     description: "",
      style: `
 				.certificate-content {
