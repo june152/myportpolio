@@ -29,7 +29,7 @@ const CertificateItem = (props: CertProps) => {
                         <div className="certificate-title">{title}</div>
                         <div className="certificate-description">{description}</div>
                         <div className="certificate-link">
-                            View certificate{" "}
+                            View Certificate{" "}
                             <FontAwesomeIcon
                                 style={{ fontSize: "10px" }}
                                 icon={faChevronRight}
