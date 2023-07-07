@@ -1,6 +1,7 @@
 import { ReactNode } from "react"
 import JnuCert from "../assets/jnuCert.jpg"
 import InforexCert from "../assets/inforexCert.jpg"
+import OPicCert from "../assets/OPic1.jpg"
 
 export class CertType {
     constructor(
@@ -37,7 +38,7 @@ export const Cert_3:ReactNode =
         <div className="certificate-content">
             <div className="paragraph"></div>
             <img
-                src="https://picsum.photos/200/300"
+                src={OPicCert}
                 alt="random"
                 className="randImage"
             />
