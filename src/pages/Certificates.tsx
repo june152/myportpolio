@@ -1,6 +1,4 @@
 import React, { useEffect } from "react";
-import NavBar from '../components/common/NavBar';
-import Footer from '../components/common/Footer';
 import Logo from '../components/common/Logo';
 import INFO from '../data/user';
 import "./styles/certificates.css"
