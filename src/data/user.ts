@@ -137,7 +137,7 @@ const INFO = {
 				"건강한 공간을 선물하는 업체, 유니나 청소 페이지 제작",
 			logo: ReactIcon,
 			linkText: "View Project",
-			link: "https://june152.github.io/unina_clean_react/home/1#",
+			link: "https://june152.github.io/unina_clean_react/",
 		},
 	],
 };
