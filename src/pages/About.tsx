@@ -4,6 +4,7 @@ import Footer from '../components/common/Footer';
 import Logo from '../components/common/Logo';
 import INFO from '../data/user';
 import Socials from '../components/about/Socials';
+import MyPicture from '../assets/hjp.jpg'
 
 import "./styles/about.css";
 import Education from '../components/homepage/Education';
@@ -76,7 +77,7 @@ const About = () => {
                                 <div className="about-image-container">
 									<div className="about-image-wrapper">
 										<img
-											src={Escape}
+											src={MyPicture}
 											alt="about"
 											className="about-image"
 										/>

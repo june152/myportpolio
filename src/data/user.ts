@@ -3,6 +3,7 @@ import GjDaum from "../assets/gjdaum.png"
 import Dobanjang from "../assets/dobanjang.png"
 import ReactIcon from "../assets/react.png"
 import SSAFY from "../assets/SSAFY.jpg"
+import MyPicture from "../assets/hjp.jpg"
 
 export type Career = {
     companyNo: string,

@@ -12,6 +12,7 @@ import Footer from '../components/common/Footer';
 import AllProjects from '../components/projects/AllProjects';
 import Works from '../components/homepage/Works';
 import GetOut from "../assets/증빙6.jpeg"
+import MyPicture from "../assets/hjp.jpg"
 
 export interface LogoStyle {
     display: string,
@@ -92,7 +93,7 @@ const Homepage = () => {
 								<div className="homepage-image-container">
 									<div className="homepage-image-wrapper">
 										<img
-											src={GetOut}
+											src={MyPicture}
 											alt="about"
 											className="homepage-image"
 										/>
