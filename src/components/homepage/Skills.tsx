@@ -39,7 +39,7 @@ const Skills = () => {
 							<div className="work-subtitle">
 								
 							</div>
-							<div className="work-duration">Level - 상</div>
+							<div className="work-duration">Level - 중상</div>
 						</div>
 
 						<div className="work">

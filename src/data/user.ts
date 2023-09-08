@@ -35,7 +35,7 @@ const skills: Skills[] = [
     },
     {
         skillNm: "JAVA",
-        level: "상",
+        level: "중상",
     },
     {
         skillNm: "React",
@@ -103,32 +103,32 @@ const INFO = {
 				"광주광역시 동구 주민이면 누구나 이용할 수 있는 생활밀착 문제해결 디지털 플랫폼",
 			logo: Dobanjang,
 			linkText: "View Project",
-			link: "https://github.com/june152",
+			link: "http://donggu.kr/dobanjang/",
 		},
 
 		{
-			title: "기타 프로젝트 작성",
+			title: "주변을 부탁해",
 			description:
-				"프로젝트 내용 작성",
-			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/html/html.png",
+				"주위 시설에 대해 검색하는 개인 프로젝트(진행 중)",
+			logo: ReactIcon,
 			linkText: "View Project",
-			link: "https://github.com/june152",
+			link: "https://github.com/june152/capstone_map_react",
 		},
 		{
 			title: "HappyHouse - 우리동네 부동산 가격은 어떨까?",
 			description:
-				"부동산 시세 확인 웹 어플리케이션(삼성 청년 소프트웨어 아카데미 1학기 프로젝트)",
+				"부동산 시세 확인 웹 어플리케이션(삼성 청년 소프트웨어 아카데미 1학기 프로젝트) github.com/june152/happyhouse_frontend, github.com/june152/happyhouse_framework",
 			logo: SSAFY,
 			linkText: "View Project",
-			link: "https://github.com/june152",
+			link: "https://github.com/june152/happyhouse_framework",
 		},
 		{
 			title: "크롤러를 이용한 프렌차이즈 정보 수집",
 			description:
-				"대학 졸업 프로젝트, 크롤링 프로그램 제작(python)",
+				"대학 졸업 프로젝트, 크롤링 프로그램 제작(python) github.com/june152/capstone_design, github.com/june152/Capstone",
 			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/python/python.png",
 			linkText: "View Project",
-			link: "https://github.com/june152",
+			link: "https://github.com/june152/capstone_design",
 		},
 		{
 			title: "이 집 청소 잘하네 유니나 청소",
