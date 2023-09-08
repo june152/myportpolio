@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/myportpolio/static/css/main.cf85e6f1.css",
-    "main.js": "/myportpolio/static/js/main.f205dc84.js",
+    "main.js": "/myportpolio/static/js/main.fb5baf1d.js",
     "static/js/787.681848be.chunk.js": "/myportpolio/static/js/787.681848be.chunk.js",
     "static/media/myInfoCert.png": "/myportpolio/static/media/myInfoCert.24ae6a9abed11207e4fb.png",
     "static/media/OPic1.jpg": "/myportpolio/static/media/OPic1.84ed64040781dc9d796d.jpg",
@@ -22,11 +22,11 @@
     "static/media/SSAFY.jpg": "/myportpolio/static/media/SSAFY.28b3f14df98fd9bc65c2.jpg",
     "index.html": "/myportpolio/index.html",
     "main.cf85e6f1.css.map": "/myportpolio/static/css/main.cf85e6f1.css.map",
-    "main.f205dc84.js.map": "/myportpolio/static/js/main.f205dc84.js.map",
+    "main.fb5baf1d.js.map": "/myportpolio/static/js/main.fb5baf1d.js.map",
     "787.681848be.chunk.js.map": "/myportpolio/static/js/787.681848be.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.cf85e6f1.css",
-    "static/js/main.f205dc84.js"
+    "static/js/main.fb5baf1d.js"
   ]
 }
