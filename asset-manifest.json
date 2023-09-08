@@ -1,0 +1,32 @@
+{
+  "files": {
+    "main.css": "/myportpolio/static/css/main.cf85e6f1.css",
+    "main.js": "/myportpolio/static/js/main.700f4a1c.js",
+    "static/js/787.681848be.chunk.js": "/myportpolio/static/js/787.681848be.chunk.js",
+    "static/media/myInfoCert.png": "/myportpolio/static/media/myInfoCert.24ae6a9abed11207e4fb.png",
+    "static/media/OPic1.jpg": "/myportpolio/static/media/OPic1.84ed64040781dc9d796d.jpg",
+    "static/media/employment.jpg": "/myportpolio/static/media/employment.4be334828f384edb7946.jpg",
+    "static/media/inforexCert.jpg": "/myportpolio/static/media/inforexCert.e5f18c2a47b05023150a.jpg",
+    "static/media/react.png": "/myportpolio/static/media/react.73dbb5bcec516da82694.png",
+    "static/media/opic4meta.png": "/myportpolio/static/media/opic4meta.7f9083aeaca42886b8cb.png",
+    "static/media/jnuCert.jpg": "/myportpolio/static/media/jnuCert.0f1558efa06f60d3f6d8.jpg",
+    "static/media/hjp.jpg": "/myportpolio/static/media/hjp.5ec59de9b901cd0e7638.jpg",
+    "static/media/jnu.jpg": "/myportpolio/static/media/jnu.3a69e1f7b0a26977654e.jpg",
+    "static/media/infomation.png": "/myportpolio/static/media/infomation.ef3cc285039f5669a4cc.png",
+    "static/media/gjdaum.png": "/myportpolio/static/media/gjdaum.7fabe8fa17c1cc53fe81.png",
+    "static/media/inforex.png": "/myportpolio/static/media/inforex.73d90e27af4f5f64777b.png",
+    "static/media/typescript.png": "/myportpolio/static/media/typescript.4e3f27e6784d69f4f587.png",
+    "static/media/dobanjang.png": "/myportpolio/static/media/dobanjang.fe3b38d07a064a0d1541.png",
+    "static/media/nubiz.png": "/myportpolio/static/media/nubiz.f10c5cbf820d12f2fe90.png",
+    "static/media/back_btn.png": "/myportpolio/static/media/back_btn.fe6b5633382b343cc5c7.png",
+    "static/media/SSAFY.jpg": "/myportpolio/static/media/SSAFY.28b3f14df98fd9bc65c2.jpg",
+    "index.html": "/myportpolio/index.html",
+    "main.cf85e6f1.css.map": "/myportpolio/static/css/main.cf85e6f1.css.map",
+    "main.700f4a1c.js.map": "/myportpolio/static/js/main.700f4a1c.js.map",
+    "787.681848be.chunk.js.map": "/myportpolio/static/js/787.681848be.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.cf85e6f1.css",
+    "static/js/main.700f4a1c.js"
+  ]
+}
