@@ -95,7 +95,7 @@ const INFO = {
 				"돌봄이 필요한 광주시민이면 누구나 이용할 수 있는 빈틈없는 전 생애주기 지역사회 통합돌봄 서비스",
 			logo: GjDaum,
 			linkText: "View Project",
-			link: "https://www.gwangju.go.kr/welfare/contentsView.do?pageId=welfare190",
+			link: "https://news.gwangju.go.kr/gallery.es?mid=a20202000000&bid=0010&act=view&list_no=1033",
 		},
 
 		{
